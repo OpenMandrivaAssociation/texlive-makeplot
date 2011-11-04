@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/pstricks/contrib/makeplot
+# catalog-date 2008-01-20 02:03:54 +0100
+# catalog-license lppl
+# catalog-version 1.0.6
 Name:		texlive-makeplot
 Version:	1.0.6
 Release:	1
@@ -49,6 +55,7 @@ Matlab output files.
 #- source
 %doc %{_texmfdistdir}/source/latex/makeplot/makeplot.dtx
 %doc %{_texmfdistdir}/source/latex/makeplot/makeplot.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ Matlab output files.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

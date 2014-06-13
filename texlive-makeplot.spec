@@ -6,7 +6,7 @@
 # catalog-version 1.0.6
 Name:		texlive-makeplot
 Version:	1.0.6
-Release:	6
+Release:	7
 Summary:	Easy plots from Matlab in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/makeplot

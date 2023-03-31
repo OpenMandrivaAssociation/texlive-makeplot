@@ -1,6 +1,6 @@
 Name:		texlive-makeplot
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Easy plots from Matlab in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/makeplot
